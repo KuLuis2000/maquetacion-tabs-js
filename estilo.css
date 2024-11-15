@@ -100,17 +100,23 @@ section h1 {
   grid-gap: 20px;
 }
 
+.galeria figure{
+  border-radius: 15px;
+}
+
 .galeria figure img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 .galeria1 {
   display: grid;
   grid-template-areas: "port7 port6";
   grid-gap: 20px;
   width: 66%;
+  border-radius: 15px;
 }
 
 .galeria1 figure img {
@@ -118,12 +124,14 @@ section h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 .galeria3 {
   display: grid;
   grid-template-areas: "port21" "port31";
   grid-gap: 20px;
   width: 66%;
+  border-radius: 15px;
 }
 
 .galeria3 figure img {
@@ -131,12 +139,14 @@ section h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 .galeria4 {
   display: grid;
   grid-template-areas: "port6 port7";
   grid-gap: 20px;
   width: 66%;
+  border-radius: 15px;
 }
 
 .galeria4 figure img {
@@ -144,11 +154,13 @@ section h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 .galeria5 {
   display: grid;
   grid-template-areas: "port7 port2 port2";
   grid-gap: 20px;
+  border-radius: 15px;
 }
 
 .galeria5 figure img {
@@ -156,6 +168,7 @@ section h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .puerto7 {
@@ -236,6 +249,7 @@ section h1 {
   left: 0;
   opacity: 0;
   transition: all 0.5s linear;
+  border-radius: 15px;
 }
 
 .absolute1 {
@@ -247,6 +261,7 @@ section h1 {
   left: 0;
   opacity: 0;
   transition: all 0.5s linear;
+  border-radius: 15px;
 }
 
 .messenger {
@@ -287,4 +302,33 @@ section h1 {
   text-align: center;
   font-size: 35px;
   cursor: pointer;
+}
+
+
+.view_news{
+  margin: auto;
+  margin-top: 25px;
+  background-color: #028bff;
+  color: white;
+  max-width: 300px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all .5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.view_news:hover{
+  background-color: #1ca2ff;
+}
+
+
+.view_news a{
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
 }
